@@ -1,0 +1,134 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx</Extensions>
+    </Filter>
+    <Filter Include="python">
+      <UniqueIdentifier>{3858e4ec-d8bd-4c52-b7ee-0187457e11cf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="python\bloomberg">
+      <UniqueIdentifier>{5d54aaa7-5962-4bbc-b05a-73342b3ca0c5}</UniqueIdentifier>
+      <Extensions>*.py</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Close.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="DataQueue.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="DispatchLoop.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="EnableFeature.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="GetData.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="GetHeader.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="GetHistData.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="GetSocket.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Open.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="PyBloomberg.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="RequestData.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="RequestHeader.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="RequestHistData.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="RequestTicks.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="StatusHandler.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Utilities.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="pack_unpack.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="PyClientCallback.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="stdafx.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="test_client_overrides.py">
+      <Filter>python</Filter>
+    </None>
+    <None Include="test_server_script.py">
+      <Filter>python</Filter>
+    </None>
+    <None Include="test_server_ticks1.py">
+      <Filter>python</Filter>
+    </None>
+    <None Include="test_server_ticks2.py">
+      <Filter>python</Filter>
+    </None>
+    <None Include="tick_database.py">
+      <Filter>python</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="ReadMe.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="test_client.py">
+      <Filter>python</Filter>
+    </CustomBuild>
+    <CustomBuild Include="test_client_header.py">
+      <Filter>python</Filter>
+    </CustomBuild>
+    <CustomBuild Include="test_client_header_asynch.py">
+      <Filter>python</Filter>
+    </CustomBuild>
+    <CustomBuild Include="test_client_ticks1.py">
+      <Filter>python</Filter>
+    </CustomBuild>
+    <CustomBuild Include="test_client_ticks2.py">
+      <Filter>python</Filter>
+    </CustomBuild>
+    <CustomBuild Include="test_server.py">
+      <Filter>python</Filter>
+    </CustomBuild>
+    <CustomBuild Include="bloomberg\__init__.py">
+      <Filter>python\bloomberg</Filter>
+    </CustomBuild>
+    <CustomBuild Include="bloomberg\wrapper.py">
+      <Filter>python\bloomberg</Filter>
+    </CustomBuild>
+  </ItemGroup>
+</Project>
